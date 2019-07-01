@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Performance as Part of Design"
 subtitle: "Saving time and building better sites with performance budgets"
 date: 2015-02-25 09:00:00 -0600
-categories: writing
+categories: engineering
 tags: performance, development, design thinking
 excerpt: Let’s move performance to the front of the design process. No longer should it have to wait at the end of the line to be noticed, when it can help us early in the design process.
+slug: 2015/02/25/performance-as-part-of-design
+status: published
 
 ---
 I’ll start with a question.

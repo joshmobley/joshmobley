@@ -5,14 +5,12 @@ import './BlogEntry.scss'
 
 const BlogEntry = ({ post }) => (
     <div className="blog-entry">
-        <Link to={ post.link } className="blog-entry__image">
-            <img src={ post.image } />
-        </Link>
         <div className="blog-entry__content">
-            <Link to={ post.link }>
-                <h2 className="blog-entry__title">{ post.frontmatter.title }</h2>
+            <p className="blog-entry__date">{ post.meta.date }</p>
+            <Link to={`writing/${post.meta.slug}.html`}>
+                <h2 className="blog-entry__title">{ post.meta.title }</h2>
             </Link>
-            <p className="blog-entry__text">{ post.frontmatter.excerpt }</p>
+            <p className="blog-entry__text">{ post.meta.excerpt }</p>
         </div>
     </div>
 )
@@ -21,7 +19,7 @@ BlogEntry.propTypes = {
     title: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired
+    slug: PropTypes.string.isRequired
 }
 
 export default BlogEntry

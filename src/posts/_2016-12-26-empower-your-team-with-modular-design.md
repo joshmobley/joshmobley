@@ -3,9 +3,10 @@ layout: post
 title: "Empower Your Team with Modular Design"
 subtitle: "How using a modular approach will share autonomy, build efficiency, and save money."
 date: 2016-12-30 18:00:00 -0600
-categories: writing
+categories: design
 tags: design development approach efficiency
 excerpt: Lorem ipsum sit amet...
+status: draft
 ---
 
 ### Introduction

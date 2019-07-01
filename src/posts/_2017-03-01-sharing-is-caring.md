@@ -3,9 +3,10 @@ layout: post
 title: "Sharing is Caring"
 subtitle: "Modularizing and open-sourcing my process"
 date: 2017-03-01 14:00:00 -0500
-categories: writing
+categories: life
 tags: development community tools resources
 excerpt: "If you've been to my site before, you may notice a new item in the navigation. As of today, I've created a 'tools' section, where I'll be sharing a collection of development tools that are inspired by my day to day workflow."
+status: draft
 ---
 
 ### Intro

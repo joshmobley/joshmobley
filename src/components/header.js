@@ -6,8 +6,8 @@ const Header = () => (
     <header className="header">
         <Wrapper>
             <h1>Josh Mobley</h1>
-            <Nav />
         </Wrapper>
+        <Nav />
     </header>
 )
 

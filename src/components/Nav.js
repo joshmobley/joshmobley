@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './Nav.scss'
 
 const Nav = () => (
-    <nav>
+    <nav className="nav">
         <ul>
-            <li><Link to="/">Link</Link></li>
-            <li><Link to="/">Link</Link></li>
-            <li><Link to="/">Link</Link></li>
+            <li><Link to="/" activeClassName="is-active">Home</Link></li>
+            <li><Link to="/blog" activeClassName="is-active">Blog</Link></li>
+            <li><Link to="/contact" activeClassName="is-active">Contact</Link></li>
         </ul>
     </nav>
 )

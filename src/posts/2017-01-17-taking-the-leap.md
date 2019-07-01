@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Taking the Leap"
 subtitle: "Confronting the fear of choosing to freelance"
 date: 2017-01-17 17:00:00 -0500
-categories: writing
+categories: life
 tags: freelance career development
 excerpt: "I've decided to leave the security of a full-time job for the possibility of forging my own path. Balancing freelance development with the creation of a new product is both exciting and terrifying."
+slug: 2017/01/17/taking-the-leap
+status: published
 ---
 
 At the end of 2016, I made a decision to pivot in my career. 

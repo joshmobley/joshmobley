@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "You Are Qualified"
 subtitle: "Look for what's next, not what's comfortable"
 date: 2017-10-19 14:00:00 -0500
-categories: writing
+categories: culture
 tags: development design community culture inspiration hiring industry
 excerpt: "The skills gap is large, talented people are few-and-far-between and plenty of organizations are scrambling to figure out how to make it work. If you've ever been on the hiring side of developers, designers, or technologists, you quickly realize how slim the choices are. What if you're on the hunt?"
+slug: 2017/10/19/you-are-qualified
+status: published
 ---
 
 ### Intro

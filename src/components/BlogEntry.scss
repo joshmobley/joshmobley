@@ -1,30 +1,25 @@
 .blog-entry {
-    display: flex;
+    padding: 2rem;
 
     &__content {
+        margin: 0 auto;
         max-width: 800px;
-    }
-
-    &__image {
-        margin-right: 2rem;
-        width: 33%;
-
-        img {
-            width: 100%;
-        }
     }
 
     &__text {
         line-height: 1.4rem;
     }
 
+    &__date {
+        font-size: .8rem;
+        font-family: "Raleway", sans;
+        margin-bottom: .25rem;
+        color: #aaa;
+    }
+
     &__title {
         font-size: 2.4rem;
         line-height: 2.8rem;
-        margin: 1rem 0;
-    }
-
-    + .blog-entry {
-        margin-top: 2rem;
+        margin: 0 0 1rem;
     }
 }

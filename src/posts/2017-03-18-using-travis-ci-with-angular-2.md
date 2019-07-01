@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Using TravisCI with Angular"
 subtitle: "Setting up continuous integration for an Angular App"
 date: 2017-03-18 14:00:00 -0500
-categories: writing
+categories: engineering
 tags: development angular travisci continuous integration ci/cd tools
 excerpt: "Continuous Integration is a key piece of modern software development. Ensuring that we can keep new code flowing into our master branch as it's ready is important to keeping the speed of delivering new fixes and features to our customers as quickly as possible."
+slug: 2017/03/18/using-travis-ci-with-angular-2
+status: published
 ---
 
 ### Intro

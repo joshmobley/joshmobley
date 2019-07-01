@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Simple JavaScript Modules with Require.js"
 subtitle: "A step-by-step guide to breaking down your scripts into pieces for the browser"
 date: 2016-12-21 09:00:00 -0600
-categories: writing
+categories: engineering
 tags: javascript development
 excerpt: If you've used any CLI's or large javascript frameworks (think Angular, Ember, etc.) you've probably seen and even used javascript modules. When we're dealing with large amounts of javascript, it's easier to parse what's going on when we've encapsulated our functions into bite-sized chunks.
+slug: 2016/12/21/simple-javascript-modules-with-require-js
+status: published
 
 ---
 

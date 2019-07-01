@@ -1,0 +1,22 @@
+.nav ul {
+    border-top: 1px solid lighten(#58a4b0, 35%);
+    border-bottom: 1px solid lighten(#58a4b0, 35%);
+    display: flex;
+    justify-content: center;
+
+    li {
+
+        a {
+            display: block;
+            padding: .5rem 2rem;
+
+            &:hover {
+                background: lighten(#58a4b0, 45%);
+            }
+
+            &.is-active {
+                background: lighten(#58a4b0, 40%);
+            }
+        }
+    }
+}

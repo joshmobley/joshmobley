@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Extend Your Component Library with JavaScript Classes"
 subtitle: "Creating consistency across your HTML, CSS, and JS"
 date: 2017-01-27 14:00:00 -0500
-categories: writing
+categories: engineering
 tags: javascript development css architecture components UI design
 excerpt: "One method I've been exploring when working on new website projects is how to organize my javascript, css, and html to all be reflective of the component library that we're using to build our visual system."
+slug: 2017/01/27/using-classes-to-match-your-component-library
+status: published
 ---
 
 ### Intro

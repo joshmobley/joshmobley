@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Web Standards in a Post-Standards World"
 subtitle: "The more things change, the more they stay the same"
 date: 2017-04-06 14:00:00 -0500
-categories: writing
+categories: design
 tags: development web standards AEA thoughts industry
 excerpt: "I attended my first An Event Apart in 2011 in Washington, D.C. and the landscape of front-end development and design was a lot different than it is today. It's interesting to consider how the winds of change have blown against the industry for the last few years."
+slug: 2017/04/06/web-standards-in-a-post-standards-world
+status: published
 ---
 
 ### Intro

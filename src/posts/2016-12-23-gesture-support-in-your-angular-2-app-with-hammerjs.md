@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Gesture Support in your Angular 2 App with HammerJS"
 subtitle: "Capturing gesture events with ease"
 date: 2016-12-23 19:30:00 -0600
-categories: writing
+categories: engineering
 tags: angular development gesture mobile
 excerpt: "Recently when assisting on an Angular 2 project, one of the requirements included gesture support for mobile devices, specifically swipe. Luckily, Angular 2 ships with some native support for HammerJS, a javascript gesture library."
+slug: 2016/12/23/gesture-support-in-your-angular-2-app-with-hammerjs
+status: published
 ---
 
 

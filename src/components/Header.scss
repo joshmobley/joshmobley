@@ -1,15 +1,18 @@
 .header {
-    background: linear-gradient(#a9bcd0 15%, #fff);
-    padding: 3rem 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, 1));
+    position: sticky;
+    top: 0;
 
     .wrapper {
+        align-items: center;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        padding: 1rem 0;
     }
 
     h1 {
-        color: #373f51;
+        color: darken(#58a4b0, 10%);
         font-family: "Raleway", sans-serif;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }

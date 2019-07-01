@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "Easy WordPress Migration with Docker"
 subtitle: "Local environments in 5 minutes or less"
-categories: writing
+categories: engineering
 date: 2017-04-09 14:00:00 -0500
 tags: development WordPress docker process tools
 excerpt: "I've recently upgraded to a new laptop, and wanted to take that opportunity to see if Docker is as great as everyone says it is. One of the first projects I took on was seeing if I could power local WordPress environments entirely with docker containers. Good news, not only does it work, but it's incredibly simple."
+slug: 2017/04/09/easy-wordpress-migration-with-docker
+status: published
 ---
 
 ### Intro
@@ -19,8 +20,6 @@ I've recently upgraded to a new laptop, and wanted to take that opportunity to s
 ### Install Docker
 
 The first thing you need to do is install Docker on your local machine. If you're using a [Mac](https://www.docker.com/docker-mac){:target="blank"} or [Windows](https://www.docker.com/docker-windows){:target="blank"}, Docker provideds a great little installer to make that simple. Docker also provides distributions for all flavors of Linux.
-
-![Docker for Mac download screen](/assets/articles/docker-install-screen.jpg "Docker for Mac download screen")
 
 ### Pull Images
 
