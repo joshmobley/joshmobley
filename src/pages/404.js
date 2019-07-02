@@ -1,11 +1,19 @@
 import React from "react"
+import './404.scss'
 
-import { Layout } from "../components"
+import { Layout, Section, Wrapper } from "../components"
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Section className="not-found">
+      <Wrapper>
+        <div className="not-found__message">
+          <div className="not-found__bg"></div>
+          <h1>This Page Doesn't Exist</h1>
+          <p>&ldquo;Someone&rdquo; must&rsquo;ve run off with it.</p>
+        </div>
+      </Wrapper>
+    </Section>
   </Layout>
 )
 

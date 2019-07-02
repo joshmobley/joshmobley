@@ -35,20 +35,19 @@ const HomePage = ({ data }) => (
       <Wrapper>
         <h3 className="text--center">Brands I've Worked With</h3>
         <ul>
-          <li>Kaleido</li>
-          <li>Consensys</li>
-          <li>Truffle Suite</li>
-          <li>Pendo</li>
-          <li>Anchore</li>
-          <li>Pearson English</li>
-          <li>Foreign Policy Magazine</li>
-          <li>The Economist</li>
-          <li>NC State University</li>
-          <li>Duke University</li>
-          <li>UNC School of Medicine</li>
-          <li>Great Outdoor Provision Co.</li>
-          <li>Cameron Village</li>
-          <li>Raleigh Little Theatre</li>
+          <li><img src="/logos/consensys.webp" alt="Consensys" /></li>
+          <li><img src="/logos/truffle.png" alt="Truffle Suite" /></li>
+          <li><img src="/logos/pendo.png" alt="Pendo" /></li>
+          <li><img src="/logos/anchore.png" alt="Anchore" /></li>
+          <li><img src="/logos/pearson-english.png" alt="Pearson English" /></li>
+          <li><img src="/logos/foreign-policy.png" alt="Foreign Policy Magazine" /></li>
+          <li><img src="/logos/economist.png" alt="The Economist" /></li>
+          <li><img src="/logos/nc-state.png" alt="NC State University" /></li>
+          <li><img src="/logos/duke.svg" alt="Duke University" /></li>
+          <li><img src="/logos/unc.png" alt="UNC School of Medicine" /></li>
+          <li><img src="/logos/gopc.png" alt="Great Outdoor Provision Co." /></li>
+          <li><img src="/logos/cameron-village.png" alt="Cameron Village" /></li>
+          <li><img src="/logos/raleigh-little-theater.svg" alt="Raleigh Little Theatre" /></li>
         </ul>
       </Wrapper>
     </Section>

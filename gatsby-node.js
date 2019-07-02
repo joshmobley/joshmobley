@@ -43,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
       result.data.posts.nodes.forEach(node => {
         createPage({
           // Path for this page — required
-          path: `writing/${node.meta.slug}`,
+          path: `writing/${node.meta.slug}/`,
           component: articleTemplate,
           context: {
             slug: node.meta.slug

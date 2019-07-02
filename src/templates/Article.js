@@ -1,9 +1,11 @@
 import React from 'react'
 import { Layout } from '../components'
+import './Article.scss'
 
 const ArticleTemplate = ({ data }) => (
   <Layout>
-  <article>
+  <article className="article">
+      <p class="article__date">{ data.post.meta.date } / { data.post.meta.categories }</p>
       <h1>{ data.post.meta.title }</h1>
       <div dangerouslySetInnerHTML={{ __html: data.post.html }} />
   </article>
@@ -22,6 +24,8 @@ query PageQuery($slug: String) {
           title
           excerpt
           slug
+          categories
+          date(formatString: "MMMM D, YYYY")
         }
         html
       }

@@ -29,17 +29,25 @@
 .brands {
 
     ul {
+        align-items: center;
+        box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 4rem;
+        margin-top: 2rem;
+        overflow: hidden;
     }
 
     ul li {
         margin-bottom: 1rem;
         text-align: center;
-        width: calc(16%);
-        padding: 0 2%;
+        padding: 1rem;
+
+        img {
+            height: 40px;
+            filter: grayscale(100%);
+            opacity: .5;
+        }
     }
 }
 

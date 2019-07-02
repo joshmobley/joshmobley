@@ -9,9 +9,7 @@ slug: 2019/06/03/wordpress-and-gatsby
 status: published
 ---
 
-## Use Case
-
-### The Situation
+## The Situation
 
 In a recent project, I was in charge of an organizations marketing sites that were all built on Wordpress. In this particular case, we had 3 seperate wordpress instances that powered 3 different sites that all needed to share some amount of style/branding.
 

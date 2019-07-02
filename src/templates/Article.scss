@@ -1,0 +1,95 @@
+.article {
+    max-width: 800px;
+    margin: 4rem auto;
+
+    &__date {
+
+        font-size: .8rem;
+        font-family: "Raleway", sans;
+        margin-bottom: .25rem;
+        color: #aaa;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 4rem 0 2rem;
+    }
+
+    h3 {
+        color: inherit;
+        font-family: inherit;
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 1.4rem;
+        margin: 4rem 0 2rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin: 2rem 0 1rem;
+    }
+
+    ul {
+        margin: 2rem 0;
+        padding-left: 2rem;
+
+        li {
+            list-style: disc;
+
+            + li {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    pre code {
+        margin: 2rem 0;
+        padding: 2rem;
+        width: 100%;
+        line-height: 1.2rem;
+    }
+
+    code {
+        padding: 0 .25rem;
+        background: #eee;
+        display: inline-block;
+        font-family: "Courier", mono;
+        font-size: .9rem;
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        quotes: "“" "”" "‘" "’";
+        margin: 2rem 0;
+        font-size: 1.2rem;
+        padding: 2rem;
+        position: relative;
+
+        
+        p:before {
+            content: open-quote;
+            color: #ddd;
+            font-size: 4rem;
+            font-family: "Lora", serif;
+            position: absolute;
+            left: -.5rem;
+            top: .5rem;
+        }
+
+        p:after {
+            content: close-quote;
+            position: absolute;
+            left: -9999rem;
+        }
+
+        p {
+            font-family: "Raleway", sans;
+        }
+    }
+}

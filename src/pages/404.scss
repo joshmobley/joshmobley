@@ -1,0 +1,32 @@
+.not-found {
+    img {
+        height: 300px;
+        opacity: .2;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    &__bg {
+        background: url('/dog.png') no-repeat center;
+        background-size: 300px;
+        display: block;
+        height: 400px;
+        opacity: .2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    &__message {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        justify-content: center;
+        position: relative;
+    }
+}

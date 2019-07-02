@@ -19,6 +19,15 @@ const ContactPage = () => (
         </form>
       </Wrapper>
     </Section>
+    <Section>
+      <Wrapper>
+        <h3 className="text--center">Or On Social</h3>
+        <div class="social-links">
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </Wrapper>
+    </Section>
 
   </Layout>
 )
