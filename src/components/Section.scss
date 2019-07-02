@@ -1,6 +1,15 @@
 .section {
     padding: 4rem 0;
 
+    h3 {
+
+    font-family: "Raleway", sans;
+    color: lighten(#58a4b0, 25%);
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+
     + .section {
         border-top: 1px solid #ccc;
     }
@@ -14,15 +23,6 @@
 
     &--no-padding {
         padding: 0;
-    }
-
-    h3 {
-
-    font-family: "Raleway", sans;
-    color: lighten(#58a4b0, 25%);
-    font-size: .9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     }
     
 }
