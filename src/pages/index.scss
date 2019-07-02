@@ -28,6 +28,11 @@
 
 .brands {
 
+    h3 {
+        color: #fff;
+        opacity: .65;
+    }
+
     ul {
         align-items: center;
         box-sizing: border-box;
@@ -53,14 +58,6 @@
 
 .text--center {
     text-align: center;
-}
-
-h3 {
-    font-family: "Raleway", sans;
-    color: lighten(#58a4b0, 25%);
-    font-size: .9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1080px) {
