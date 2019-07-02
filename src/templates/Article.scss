@@ -1,9 +1,9 @@
 .article {
     max-width: 800px;
     margin: 4rem auto;
+    padding: 0 2rem;
 
     &__date {
-
         font-size: .8rem;
         font-family: "Raleway", sans;
         margin-bottom: .25rem;
@@ -49,10 +49,12 @@
     }
 
     pre code {
+        box-sizing: border-box;
+        line-height: 1.2rem;
         margin: 2rem 0;
+        overflow: scroll;
         padding: 2rem;
         width: 100%;
-        line-height: 1.2rem;
     }
 
     code {

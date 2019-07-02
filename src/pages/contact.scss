@@ -31,3 +31,16 @@
         padding: .5rem 1rem;
     }
 }
+
+.social-links {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 30px;
+        width: 30px;
+        opacity: .3;
+        margin: 2rem .5rem;
+    }
+}

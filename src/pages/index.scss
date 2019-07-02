@@ -1,7 +1,6 @@
 .about {
 
     &__image {
-        margin-right: 4rem;
         max-width: 600px;
         width: 33%;
     }
@@ -14,6 +13,7 @@
 
     &__content {
         max-width: 800px;
+        padding: 4rem;
     }
 
     h3 {
@@ -61,4 +61,36 @@ h3 {
     font-size: .9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1080px) {
+    .about {
+
+        &__wrapper {
+            max-width: 800px;
+            padding: 4rem 2rem;
+        }
+
+        &__content {
+            padding: 0 0 0 2rem;
+        }
+
+        &__image {
+            border-radius: 9999rem;
+            width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__content {
+            padding: 4rem 0 0 0;
+        }
+
+    }
 }

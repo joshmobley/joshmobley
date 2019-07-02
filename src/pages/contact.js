@@ -8,7 +8,7 @@ const ContactPage = () => (
     <Section>
       <Wrapper>
         <h3 className="text--center">Contact Me</h3>
-        <form data-netlify="true" method="POST" name="contact" className="form">
+        <form data-netlify="true" method="POST" name="contact" action="#" className="form">
           <label>Name</label>
           <input type="text" name="name" />
           <label>Email Address</label>
@@ -19,12 +19,16 @@ const ContactPage = () => (
         </form>
       </Wrapper>
     </Section>
-    <Section>
+    <Section className="contact">
       <Wrapper>
         <h3 className="text--center">Or On Social</h3>
         <div class="social-links">
-          <a href="#">Twitter</a>
-          <a href="#">LinkedIn</a>
+          <a href="https://twitter.com/joshmobley">
+            <img src="/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://linkedin.com/in/joshuamobley">
+            <img src="/linkedin.png" alt="LinkedIn" />
+          </a>
         </div>
       </Wrapper>
     </Section>
