@@ -57,3 +57,10 @@ a {
     color: #58a4b0;
     text-decoration: none;
 }
+p {
+	line-height: 1.4rem;
+
+	+ p {
+		margin-top: 1rem;
+	}
+}

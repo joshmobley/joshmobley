@@ -4,4 +4,16 @@
     + .section {
         border-top: 1px solid #ccc;
     }
+
+    &--green {
+        background: lighten(#58a4b0, 25%);
+        color: #fff;
+
+        h3 { color: rgba(255, 255, 255, .75); }
+    }
+
+    &--no-padding {
+        padding: 0;
+    }
+    
 }

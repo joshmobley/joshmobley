@@ -1,8 +1,8 @@
 import React from 'react'
 import './Section.scss'
 
-const Section = ({ children }) => (
-    <section className="section">
+const Section = ({ children, className}) => (
+    <section className={`section ${className}`}>
         { children }
     </section>
 )
