@@ -14,7 +14,7 @@ const HomePage = ({ data }) => (
           ))
         }
         <div class="text--center">
-          <Link to="/blog">All Posts &rarr;</Link>
+          <Link to="/writing">All Posts &rarr;</Link>
         </div>
       </Wrapper>
     </Section>
