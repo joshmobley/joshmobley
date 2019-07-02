@@ -9,6 +9,7 @@ const ContactPage = () => (
       <Wrapper>
         <h3 className="text--center">Contact Me</h3>
         <form data-netlify="true" method="POST" name="contact" action="#" className="form">
+          <input type="hidden" name="form-name" value="contact" />
           <label>Name</label>
           <input type="text" name="name" />
           <label>Email Address</label>
