@@ -1,11 +1,11 @@
 ---
-path: "/blog/rogue-rml-390bt-review"
-date: "2019-03-15"
-title: "Rogue Monster Light 390BT Review"
+title: Rogue Monster Light 390BT Review
+date: 2019-03-15 19:00 -0500
 tags: ['reviews', 'rogue', 'equipment', 'power racks']
-categories: 'fitness'
-excerpt: 'I purchased a squat rack for my garage gym. Read about my thinking, installation, and my thoughts a year later.'
+categories: fitness
+excerpt: I purchased a squat rack for my garage gym. Read about my thinking, installation, and my thoughts a year later.
 status: 'published'
+slug: 2019/03/15/rogue-rml-390bt-review
 ---
 
 ## Overview
