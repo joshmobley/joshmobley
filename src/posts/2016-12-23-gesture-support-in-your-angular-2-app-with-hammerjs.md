@@ -51,15 +51,15 @@ For example:
 
 Hammer supports all of the gestures and touch events you'd expect:
 
-* [pan](https://hammerjs.github.io/recognizer-pan/){:target="_blank"}
-* [pinch](https://hammerjs.github.io/recognizer-pinch){:target="_blank"}
-* [press](https://hammerjs.github.io/recognizer-press){:target="_blank"}
-* [rotate](https://hammerjs.github.io/recognizer-rotate){:target="_blank"}
-* [swipe](https://hammerjs.github.io/recognizer-swipe){:target="_blank"}
-* [tap](https://hammerjs.github.io/recognizer-tap){:target="_blank"}
+* [pan](https://hammerjs.github.io/recognizer-pan/)
+* [pinch](https://hammerjs.github.io/recognizer-pinch)
+* [press](https://hammerjs.github.io/recognizer-press)
+* [rotate](https://hammerjs.github.io/recognizer-rotate)
+* [swipe](https://hammerjs.github.io/recognizer-swipe)
+* [tap](https://hammerjs.github.io/recognizer-tap)
 
 
-To see a full list, check out the [HammerJS Documentation under "Recognizers"](https://hammerjs.github.io/){:target="_blank"}.
+To see a full list, check out the [HammerJS Documentation under "Recognizers"](https://hammerjs.github.io/).
 
 ### Customizing Hammer
 
@@ -80,7 +80,7 @@ Also, if you've got a web application that requires the ability to scroll, you'l
 ```javascript
 Hammer.defaults.touchAction = 'pan-x pan-y'; // allow touch to scroll
 ```
-Learn more about how touch actions can be restricted in the [docs](https://hammerjs.github.io/touch-action/){:target="_blank"}.
+Learn more about how touch actions can be restricted in the [docs](https://hammerjs.github.io/touch-action/).
 
 ### Testing
 
@@ -93,7 +93,7 @@ To assist in testing while you're in development, you may want to consider using
 </script>
 ```
 
-For more information on the emulator, check out the [documentation](https://hammerjs.github.io/touch-emulator/){:target="_blank"}.
+For more information on the emulator, check out the [documentation](https://hammerjs.github.io/touch-emulator/).
 
 ### Conclusion
 

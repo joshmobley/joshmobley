@@ -1,15 +1,19 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Layout } from '../components'
 import './Article.scss'
 
 const ArticleTemplate = ({ data }) => (
   <Layout>
-  <article className="article">
-      <p class="article__date">{ data.post.meta.date } / { data.post.meta.categories }</p>
-      <h1>{ data.post.meta.title }</h1>
-      <div dangerouslySetInnerHTML={{ __html: data.post.html }} />
-  </article>
-
+    <Helmet>
+      <title>{ data.post.meta.title } - Josh Mobley</title>
+      <meta name="description" content={ data.post.meta.excerpt } />
+    </Helmet>
+    <article className="article">
+        <p class="article__date">{ data.post.meta.date } / { data.post.meta.categories }</p>
+        <h1>{ data.post.meta.title }</h1>
+        <div dangerouslySetInnerHTML={{ __html: data.post.html }} />
+    </article>
   </Layout>
 )
 

@@ -17,7 +17,7 @@ OK, now how many of these meetings have included conversation about load-time? H
 
 From my experience, designers, product managers, user experience folks, and even developers will talk about all sorts of features and goals — and rarely does the weight or speed of these decisions ever come up…until about 3 days before launch. Yep, once every whiz-bang javascript interaction and 1600×800 hi-res image has been crammed into this poor thing, people begin to say things like ‘it looks great once it loads, but it just feels a little sluggish…” Then it’s a mad rush to start peeling back layers and compressing images to death until we feel like we’ve done ‘enough’ to get it faster.
 
-If you follow the work of many of the web’s leading men and women (including [Scott Jehl](http://www.twitter.com/scottjehl){:target="_blank"}, [Lara Hogan](https://twitter.com/lara_hogan){:target="_blank"}, [Dan Mall](http://www.twitter.com/danielmall){:target="_blank"}, [Chris Coyier](http://www.twitter.com/chriscoyier){:target="_blank", and a host of others) you may already know where I’m going with this. If you don’t — then please keep reading — because we can fix this.
+If you follow the work of many of the web’s leading men and women (including [Scott Jehl](http://www.twitter.com/scottjehl), [Lara Hogan](https://twitter.com/lara_hogan), [Dan Mall](http://www.twitter.com/danielmall), [Chris Coyier](http://www.twitter.com/chriscoyier){:target="_blank", and a host of others) you may already know where I’m going with this. If you don’t — then please keep reading — because we can fix this.
 
 *Let’s move performance to the front of the queue.* No longer should it have to wait at the end of the line to be noticed, when it can help us early in the design process.
 
@@ -58,11 +58,11 @@ So now we know we have ~ 910kb to devote to typography and images. This gives ou
 
 #### Using available data concerning averages
 
-The other option, is to use data that has been compiled about average file sizes in 2014. When we’re unsure about how large our site might be, this can be a good option to get a ballpark number to begin with. SitePoint tracks this data, and you can find it here: [www.sitepoint.com/average-page-weight-increases-15-2014/](http://www.sitepoint.com/average-page-weight-increases-15-2014/){:target="_blank"}
+The other option, is to use data that has been compiled about average file sizes in 2014. When we’re unsure about how large our site might be, this can be a good option to get a ballpark number to begin with. SitePoint tracks this data, and you can find it here: [www.sitepoint.com/average-page-weight-increases-15-2014/](http://www.sitepoint.com/average-page-weight-increases-15-2014/)
 
 ### Calculator Tool
 
-In writing this blog post, I thought, “Man, it would be great if someone had put together a little calculator to help people get started with this.” No one had, so I’ve started one myself. It’s pretty rough around the edges right now, but give it a spin and let me know what you think. You can find it here: [www.joshmobley.net/tools/performance-calculator](www.joshmobley.net/tools/performance-calculator){:target="_blank"}
+In writing this blog post, I thought, “Man, it would be great if someone had put together a little calculator to help people get started with this.” No one had, so I’ve started one myself. It’s pretty rough around the edges right now, but give it a spin and let me know what you think. You can find it here: [www.joshmobley.net/tools/performance-calculator](www.joshmobley.net/tools/performance-calculator)
 
 ### How it helps
 

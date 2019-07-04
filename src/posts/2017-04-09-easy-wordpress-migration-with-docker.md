@@ -19,7 +19,7 @@ I've recently upgraded to a new laptop, and wanted to take that opportunity to s
 
 ### Install Docker
 
-The first thing you need to do is install Docker on your local machine. If you're using a [Mac](https://www.docker.com/docker-mac){:target="blank"} or [Windows](https://www.docker.com/docker-windows){:target="blank"}, Docker provideds a great little installer to make that simple. Docker also provides distributions for all flavors of Linux.
+The first thing you need to do is install Docker on your local machine. If you're using a [Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows), Docker provideds a great little installer to make that simple. Docker also provides distributions for all flavors of Linux.
 
 ### Pull Images
 
@@ -27,13 +27,13 @@ Once Docker is installed succesfully, you'll need to pull the images you'll need
 
 #### WordPress
 
-If you check out the [Docker Store](https://store.docker.com){:target="blank"} you can find all sorts of public images. There's an [official WordPress image](https://store.docker.com/images/WordPress?tab=description){:target="blank"} provided by the Docker team that we'll be using for our local environments.
+If you check out the [Docker Store](https://store.docker.com) you can find all sorts of public images. There's an [official WordPress image](https://store.docker.com/images/WordPress?tab=description) provided by the Docker team that we'll be using for our local environments.
 
 From your terminal, run `docker pull WordPress`. Don't worry about what directory you're in, as pulling images from Docker keeps them all together in one place, irrespective of where you are in the filesystem.
 
 #### MySQL
 
-There's an [official MySQL image](https://hub.docker.com/_/mysql/){:target="blank"} on the Docker Store as well. From your terminal, run `docker pull mysql`.
+There's an [official MySQL image](https://hub.docker.com/_/mysql/) on the Docker Store as well. From your terminal, run `docker pull mysql`.
 
 Now that we have our images, we can configure our environment.
 
@@ -84,7 +84,7 @@ services: # configuring each container
       - ./wp-content/uploads:/var/www/html/wp-content/uploads # map our uploads to the container
 ```
 
-I know that looks like a lot, but hopefully my comments help you parse it. You can [learn more about docker-compose files by reading the docs](https://docs.docker.com/compose/compose-file/){:target="blank"}.
+I know that looks like a lot, but hopefully my comments help you parse it. You can [learn more about docker-compose files by reading the docs](https://docs.docker.com/compose/compose-file/).
 
 ### Migrating Our Database
 

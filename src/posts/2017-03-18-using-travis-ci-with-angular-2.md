@@ -13,7 +13,7 @@ status: published
 
 Continuous Integration is a key piece of modern software development. Ensuring that we can keep new code flowing into our master branch as it's ready is important to keeping the speed of delivering new fixes and features to our customers as quickly as possible.
 
-TravisCI is one of the top hosted CI services in use. There are a few other competitors &mdash; [CircleCI](https://circleci.com/){:target="_blank"} and [CodeShip](https://codeship.com/){:target="_blank"} being two of them. Perhaps I'll write about those in the future, but for the purposes of this article, we'll stick to TravisCI.
+TravisCI is one of the top hosted CI services in use. There are a few other competitors &mdash; [CircleCI](https://circleci.com/) and [CodeShip](https://codeship.com/) being two of them. Perhaps I'll write about those in the future, but for the purposes of this article, we'll stick to TravisCI.
 
 ### Automated Tests
 
@@ -29,7 +29,7 @@ So let's take a brief look at TravisCI.
 
 TravisCI is not the cheapest option for running private repos, though it is completely free for any public repos. Their smallest pricing tier is $69/month and includes 1 concurrent job, meaning that you can only run 1 set of tests at a time. 
 
-To run public repos, visit [https://travis-ci.org](https://travis-ci.org){:target="_blank"}. For private/priced options, visit [https://travis-ci.com](https://travis-ci.com){:target="_blank"}. These two environments seem to be set up as completely different applications/authentication, so you'll have to authorize both with github if you want to keep them separate.
+To run public repos, visit [https://travis-ci.org](https://travis-ci.org). For private/priced options, visit [https://travis-ci.com](https://travis-ci.com). These two environments seem to be set up as completely different applications/authentication, so you'll have to authorize both with github if you want to keep them separate.
 
 Here's the pricing table (as of today):
 
@@ -96,13 +96,13 @@ I did run into a specific bug when I was attempting to run my tests on Travis. B
 ...
 ```
 
-This postinstall hook ensures that this file gets executed at the end of any `yarn` command and resolves the issue. You can [read more about it here](https://github.com/karma-runner/karma-phantomjs-launcher/issues/120#issuecomment-262634703){:target="_blank"}.
+This postinstall hook ensures that this file gets executed at the end of any `yarn` command and resolves the issue. You can [read more about it here](https://github.com/karma-runner/karma-phantomjs-launcher/issues/120#issuecomment-262634703).
 
 ### Automated Deployment
 
 Assuming all of that is working, and your Travis builds are passing, it's time to add Automated Deployment.
 
-TravisCI supports a plethora of the most popular hosting solutions including AWS, Github, Google, Heroku, NPM, Rackspace, Surge, S3, and many more. To learn how to deploy to your provider, [check out the documentation](https://docs.travis-ci.com/user/deployment){:target="_blank"}.
+TravisCI supports a plethora of the most popular hosting solutions including AWS, Github, Google, Heroku, NPM, Rackspace, Surge, S3, and many more. To learn how to deploy to your provider, [check out the documentation](https://docs.travis-ci.com/user/deployment).
 
 Regardless of what you choose, you'll need to add some configuration options to `.travis.yml`.
 
@@ -126,7 +126,7 @@ The `skip_cleanup` option tells Travis to leave any built assets in place during
 
 TravisCI provides a few different ways to define environment variables. You'll need to use one of them to pass any important authentication information to your host during the deployment process. 
 
-If you want all builds to use the same set of variables, you can configure them in your repository settings in the TravisCI admin. Otherwise, you can define them in `.travis.yml` file. [You can learn about all the options here.](https://docs.travis-ci.com/user/environment-variables/){:target="blank"}
+If you want all builds to use the same set of variables, you can configure them in your repository settings in the TravisCI admin. Otherwise, you can define them in `.travis.yml` file. [You can learn about all the options here.](https://docs.travis-ci.com/user/environment-variables/)
 
 #### Build Before Deploy
 
@@ -146,7 +146,7 @@ deploy:
   skip_cleanup: true
 ```
 
-_**If you use the `node-sass` package, or rely on it for the webpack `sass-loader`, there's a [known issue](https://github.com/sass/node-sass/issues/1579){:target="_blank"} that often Travis will not reliably execute the install.js file for `node-sass`. We can fix this by running an `npm rebuild node-sass` before we run `webpack`.**_
+_**If you use the `node-sass` package, or rely on it for the webpack `sass-loader`, there's a [known issue](https://github.com/sass/node-sass/issues/1579) that often Travis will not reliably execute the install.js file for `node-sass`. We can fix this by running an `npm rebuild node-sass` before we run `webpack`.**_
 
 ```yaml
 # .travis.yml

@@ -3,9 +3,14 @@ import { Link, graphql } from "gatsby"
 import './index.scss'
 
 import { BlogEntry, Layout, Section, Wrapper } from "../components"
+import { Helmet } from 'react-helmet'
 
 const HomePage = ({ data }) => (
   <Layout>
+    <Helmet>
+      <title>Josh Mobley</title>
+      <meta name="description" content="Frontend Engineer. Wanna-be Athlete. I work to build elegant user experiences with today's most modern frontend tools. Spending my early career as a UX Designer, I can happily stand in the gap between design and engineering to ensure everyone is speaking the same language." />
+    </Helmet>
     <Section>
       <Wrapper>
         <h3 className="text--center">Recent Posts</h3>

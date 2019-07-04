@@ -35,6 +35,19 @@
         margin: 2rem 0 1rem;
     }
 
+    ol {
+        margin: 2rem 0;
+        padding-left: 2rem;
+
+        li {
+            list-style: decimal;
+
+            + li {
+                margin-top: 1rem;
+            }
+        }
+    }
+
     ul {
         margin: 2rem 0;
         padding-left: 2rem;
@@ -48,21 +61,10 @@
         }
     }
 
-    pre code {
-        box-sizing: border-box;
-        line-height: 1.2rem;
-        margin: 2rem 0;
-        overflow: scroll;
-        padding: 2rem;
-        width: 100%;
-    }
-
-    code {
-        padding: 0 .25rem;
-        background: #eee;
-        display: inline-block;
-        font-family: "Courier", mono;
-        font-size: .9rem;
+    table {
+        td {
+            padding: .5rem;
+        }
     }
 
     blockquote {

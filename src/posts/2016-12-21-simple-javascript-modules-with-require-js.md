@@ -27,13 +27,13 @@ The first thing to understand is that javascript modules aren't really supported
 
 If you're considering using modules, you're probably already writing in ES2015+ syntax paired with a transpiler (babel, typescript, etc.) If not, know that's a requirement to using modules.
 
-If you're not sure what I'm talking about, check out the [ES2015 documentation](https://babeljs.io/docs/learn-es2015/){:target="_blank"} on babel's website. That's where you'll want to start.
+If you're not sure what I'm talking about, check out the [ES2015 documentation](https://babeljs.io/docs/learn-es2015/) on babel's website. That's where you'll want to start.
 
 ### Module syntax
 
 Today's javascript landscape is pretty fractured. The same is true with modules. 
 
-There are currently a handful of different syntaxes that one could use when writing a module. CommonJS, AMD, systemJS, UMD, and the ES2015 syntax. We're not going to go into detail about the differences or histories behind each approach here, but check out this article to learn some of [the differences between CommonJS, AMD, and ES2015](https://auth0.com/blog/javascript-module-systems-showdown/){:target="_blank"}.
+There are currently a handful of different syntaxes that one could use when writing a module. CommonJS, AMD, systemJS, UMD, and the ES2015 syntax. We're not going to go into detail about the differences or histories behind each approach here, but check out this article to learn some of [the differences between CommonJS, AMD, and ES2015](https://auth0.com/blog/javascript-module-systems-showdown/).
 
 **Require.js supports modules in [AMD syntax](http://requirejs.org/docs/whyamd.html), and that's important to know as you set up your project. Ensure whatever transpiler you're using is configured to output your modules in AMD syntax.**
 
@@ -196,7 +196,7 @@ You might be thinking, but Josh, why would I want to use Require.js when Webpack
 
 Assuming you've already got your transpiler and build process set up, you should be able to integrate require.js with relative ease. 
 
-After [downloading the script](http://requirejs.org/docs/download.html){:target="_blank"}, add it to your top-level scripts directory. For our purposes we'll call that `/js`.
+After [downloading the script](http://requirejs.org/docs/download.html), add it to your top-level scripts directory. For our purposes we'll call that `/js`.
 
 Next, remove whatever scripts you're referencing in your HTML and replace them with Require.js.
 
@@ -220,7 +220,7 @@ import * as $ from jquery;
 
 This syntax looks a little different than what we covered above. Whenever a javascript file includes many functions, you can include them all as a scoped namespace using `import * as (namespace) from (module)`. The `*` wildcard let's our transpiler know that we want the entire contents of that module.
 
-[Learn more about using jQuery with Require.js here.](http://requirejs.org/docs/jquery.html){:target="_blank"}
+[Learn more about using jQuery with Require.js here.](http://requirejs.org/docs/jquery.html)
 
 
 ### Testing & Conclusion
