@@ -17,17 +17,17 @@ In general, Apollo has worked extremely well for us, and gives us nice control o
 
 ## The Problem
 
-In this particular situation, though, we had a mutation that was using the `refetchQueries` option to pull fresh data and update all the instances of that query around our app. We use this method in various places in our application and it always works fine, but for some reason this particular case was not.
+In this particular situation, we had a mutation that was using the `refetchQueries` option to pull fresh data and update all the instances of that query around our app. We use this method in various places in our application and it always works fine, but for some reason this one instance was not.
 
 As we troubleshooted, we noticed that the network request was firing as we expected, and the data coming back was what we wanted, but the Apollo cache was just not updating (the component showing the data from the original query never re-rendered with the data from the network request).
 
 ## The Solution
 
-Finally, I took the time to download the Apollo Dev Tools (HIGHLY RECOMMENDED MOVING FORWARD) and took a look at the cache object.
+Finally, after downloading the Apollo Dev Tools (recommended) and looking at the `ROOT_QUERY` cache object, we found the problem.
 
-What we noticed is that the refetched query was passing an id as a variable as an **integer**, while the original query was passing it as a **string**. The Apollo cache treats these as separate items in the store, and therefore updating one will not update the other!
+What we noticed is that the refetched query was passing it's `id` as an `integer`, while the original query was passing it as a `string`. The Apollo cache treats these as separate items in the store, and therefore updating one will not update the other!
 
-This was happening because we were grabbing the id for our initial query from router params, which are always returned as strings. The `refetchQuery` id was coming from a decoded JWT. Moving forward, we'll be parsing id's that might be compared to a JWT to integers with `parseInt`, and that should fix us right up.
+This was happening because we were grabbing the id for our initial query from router params, which are always returned as strings. The `refetchQuery` id was coming from a decoded JWT. Moving forward, we'll be using `parseInt` on `id`s that get compared to a JWT, and that should fix us right up.
 
 ## Takeaways
 
